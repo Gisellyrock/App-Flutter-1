@@ -1,0 +1,156 @@
+import 'product.dart';
+
+class MyProducts{
+  static List<Product> allProducts = [
+  
+  static List<Product> sneakersList = [
+
+  static List<Product> jacketsList = [
+    Product(
+      id:1,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:2,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:3,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:4,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:5,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:6,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:7,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:8,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:9,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:10,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:11,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:12,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:13,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:14,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:15,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:16,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:17,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+     Product(
+      id:18,
+      name: 'Controle com fio gamer',
+      price: 75.00,
+      image: 'assets/gamer/controlecomfio.jpg',
+      description: 'sjdkajdkasjd',
+      quantity: 1,
+    ),
+    ]
+  ]
+  ]
+}
