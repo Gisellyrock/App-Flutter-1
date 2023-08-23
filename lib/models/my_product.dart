@@ -1,156 +1,154 @@
 import 'product.dart';
 
-class MyProducts{
-  static List<Product> allProducts = [
-  
-  static List<Product> sneakersList = [
+class MyProducts {
+  static List<Product> allProducts = [];
+
+  static List<Product> sneakersList = [];
 
   static List<Product> jacketsList = [
     Product(
-      id:1,
+      id: 1,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:2,
+    Product(
+      id: 2,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:3,
+    Product(
+      id: 3,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:4,
+    Product(
+      id: 4,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:5,
+    Product(
+      id: 5,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:6,
+    Product(
+      id: 6,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:7,
+    Product(
+      id: 7,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:8,
+    Product(
+      id: 8,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:9,
+    Product(
+      id: 9,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:10,
+    Product(
+      id: 10,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:11,
+    Product(
+      id: 11,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:12,
+    Product(
+      id: 12,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:13,
+    Product(
+      id: 13,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:14,
+    Product(
+      id: 14,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:15,
+    Product(
+      id: 15,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:16,
+    Product(
+      id: 16,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:17,
+    Product(
+      id: 17,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-     Product(
-      id:18,
+    Product(
+      id: 18,
       name: 'Controle com fio gamer',
       price: 75.00,
       image: 'assets/gamer/controlecomfio.jpg',
       description: 'sjdkajdkasjd',
       quantity: 1,
     ),
-    ]
-  ]
-  ]
+  ];
 }

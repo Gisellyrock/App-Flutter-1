@@ -1,4 +1,5 @@
 import 'package:ecommerce_app/models/my_product.dart';
+import 'package:ecommerce_app/widgets/product_card.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -61,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
         scrollDirection: Axis.vertical,
         itemCount: MyProducts.allProducts.length,
         itemBuilder: (context, index) {
-          final allProducts = MyProducts.allProducts[index]
+          final allProducts = MyProducts.allProducts[index];
           return ProductCard(product: allProducts);
         },
       );
