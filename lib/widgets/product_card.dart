@@ -19,16 +19,45 @@ class _ProductCardState extends State<ProductCard> {
         borderRadius: BorderRadius.circular(8.0),
         color: Colors.grey.withOpacity(0.1),
       ),
-      child: Column(children: [
-        Row(
-          children: [
-            Icon(
-              Icons.favorite_border_outlined,
+      child: Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Icon(
+                Icons.favorite_border_outlined,
+                color: Colors.pink,
+              )
+            ],
+          ),
+          SizedBox(
+            height: 130,
+            width: 130,
+            child: Image.asset(
+              widget.product.image,
+              fit: BoxFit.cover,
+            ),
+          ),
+          Text(
+            widget.product.name,
+            style: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          Text(
+            widget.product.name,
+            style: const TextStyle(
+              fontSize: 14,
               color: Colors.pink,
-            )
-          ],
-        )
-      ]),
+            ),
+          ),
+          Text(
+            '\$' '${widget.product.price}',
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          ),
+        ],
+      ),
     );
   }
 }
