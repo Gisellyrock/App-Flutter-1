@@ -60,3 +60,8 @@ flutter:
 
   assets:
     - assets/gamer/
+    - assets/hardware/
+    - assets/network/
+
+
+    

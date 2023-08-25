@@ -28,8 +28,9 @@ class _HomeScreenState extends State<HomeScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               _buildProductCategory(index: 0, name: "All Products"),
-              _buildProductCategory(index: 1, name: "Jackets"),
-              _buildProductCategory(index: 2, name: "Sneakers"),
+              _buildProductCategory(index: 1, name: "Gamer"),
+              _buildProductCategory(index: 2, name: "Network"),
+              _buildProductCategory(index: 3, name: "Harware"),
             ],
           ),
           const SizedBox(height: 20),
@@ -37,8 +38,10 @@ class _HomeScreenState extends State<HomeScreen> {
             child: isSelected == 0
                 ? _buildAllProducts()
                 : isSelected == 1
-                    ? _buildJackets()
-                    : _buildSneakers(),
+                    ? _buildGamer()
+                    : isSelected == 2
+                        ? _buildNetwork()
+                        : _buildHardware(),
           ),
         ],
       ),
@@ -77,7 +80,8 @@ class _HomeScreenState extends State<HomeScreen> {
           return ProductCard(product: allProducts);
         },
       );
-  _buildJackets() => GridView.builder(
+
+  _buildGamer() => GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           childAspectRatio: (100 / 140),
@@ -85,13 +89,14 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisSpacing: 12,
         ),
         scrollDirection: Axis.vertical,
-        itemCount: MyProducts.jacketsList.length,
+        itemCount: MyProducts.gamerList.length,
         itemBuilder: (context, index) {
-          final jacketsList = MyProducts.jacketsList[index];
-          return ProductCard(product: jacketsList);
+          final gamerList = MyProducts.gamerList[index];
+          return ProductCard(product: gamerList);
         },
       );
-  _buildSneakers() => GridView.builder(
+
+  _buildHardware() => GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           childAspectRatio: (100 / 140),
@@ -99,10 +104,25 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisSpacing: 12,
         ),
         scrollDirection: Axis.vertical,
-        itemCount: MyProducts.sneakersList.length,
+        itemCount: MyProducts.hardwareList.length,
         itemBuilder: (context, index) {
-          final sneakersList = MyProducts.sneakersList[index];
-          return ProductCard(product: sneakersList);
+          final hardwareList = MyProducts.hardwareList[index];
+          return ProductCard(product: hardwareList);
+        },
+      );
+
+  _buildNetwork() => GridView.builder(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          childAspectRatio: (100 / 140),
+          crossAxisSpacing: 12,
+          mainAxisSpacing: 12,
+        ),
+        scrollDirection: Axis.vertical,
+        itemCount: MyProducts.networkList.length,
+        itemBuilder: (context, index) {
+          final networkList = MyProducts.networkList[index];
+          return ProductCard(product: networkList);
         },
       );
 }
