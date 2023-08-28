@@ -29,7 +29,6 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               _buildProductCategory(index: 0, name: "All Products"),
               _buildProductCategory(index: 1, name: "Gamer"),
-              _buildProductCategory(index: 2, name: "Network"),
               _buildProductCategory(index: 3, name: "Harware"),
             ],
           ),
@@ -39,9 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ? _buildAllProducts()
                 : isSelected == 1
                     ? _buildGamer()
-                    : isSelected == 2
-                        ? _buildNetwork()
-                        : _buildHardware(),
+                    : _buildHardware(),
           ),
         ],
       ),
@@ -108,21 +105,6 @@ class _HomeScreenState extends State<HomeScreen> {
         itemBuilder: (context, index) {
           final hardwareList = MyProducts.hardwareList[index];
           return ProductCard(product: hardwareList);
-        },
-      );
-
-  _buildNetwork() => GridView.builder(
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          childAspectRatio: (100 / 140),
-          crossAxisSpacing: 12,
-          mainAxisSpacing: 12,
-        ),
-        scrollDirection: Axis.vertical,
-        itemCount: MyProducts.networkList.length,
-        itemBuilder: (context, index) {
-          final networkList = MyProducts.networkList[index];
-          return ProductCard(product: networkList);
         },
       );
 }

@@ -31,8 +31,8 @@ class _ProductCardState extends State<ProductCard> {
             ],
           ),
           SizedBox(
-            height: 130,
-            width: 130,
+            height: 135,
+            width: 135,
             child: Image.asset(
               widget.product.image,
               fit: BoxFit.cover,
